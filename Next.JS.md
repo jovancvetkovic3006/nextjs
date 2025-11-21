@@ -18,9 +18,14 @@ The first section will address Next.JS **Router**
 -   **blog/** route shows its page.tsx
 -   **blog/blogId/** route creates a route for **blogId** folder with its page.tsx
 
-## Switch to another file
+## **Dynamic routes**
 
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+products/[productId]
+Creates a dynamic route for product/1 or product/productIdX
+Example
+Product({params})  -> const {productId}= (await params);
+Sub-routes example (producs/[productId]/reviews/[reviewId])
+Product({params})  -> const {productId, reviewId}= (await params);
 
 ## Rename a file
 
@@ -149,6 +154,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTczNDk1MSwxMzA0NDE2MTgsLTE0ND
-UxODE2OTcsLTE1OTk1MTc5MzZdfQ==
+eyJoaXN0b3J5IjpbLTEzMTk3NjcyNTYsMTMwNDQxNjE4LC0xND
+Q1MTgxNjk3LC0xNTk5NTE3OTM2XX0=
 -->
