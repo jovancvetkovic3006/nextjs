@@ -7,10 +7,10 @@ Hi! Lets dive in the **Next.JS**.
 
 The first section will address Next.JS **Router**
 -   it is file-system-based routing system
--   App folder is a routing root
--   Need a default [page.ts](http://page.ts)x (home page)
--   Can have a layout.tsx as a default layout that will hold/render all other router
--   Each folder is a route and needs its page.tsx
+-   app folder is a routing root
+-   needs a default **page.tsx** in the app folder
+-   has a **layout.tsx** as a default layout page
+-   each **folder is a route** and needs its page.tsx
 
 ## Create files and folders
 
@@ -147,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTg4MDMwNywxMzA0NDE2MTgsLTE0ND
+eyJoaXN0b3J5IjpbLTk2NDc0MzExMywxMzA0NDE2MTgsLTE0ND
 UxODE2OTcsLTE1OTk1MTc5MzZdfQ==
 -->
