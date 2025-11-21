@@ -14,9 +14,9 @@ The first section will address Next.JS **Router**
 
 ## Nested routes
 
--   for each folder structure (eg. blog/folder route) there is a route
--   **blog/ route** shows its page.tsx
--   **blog/folder/ route** creates a route for this folder with its page.tsx
+-   for each folder structure (eg. blog/blogId route) there is a route
+-   **blog/** route shows its page.tsx
+-   **blog/blogId/** route creates a route for **blogId** folder with its page.tsx
 
 ## Switch to another file
 
@@ -149,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc3MTkyNTgsMTMwNDQxNjE4LC0xND
-Q1MTgxNjk3LC0xNTk5NTE3OTM2XX0=
+eyJoaXN0b3J5IjpbMjE0MTczNDk1MSwxMzA0NDE2MTgsLTE0ND
+UxODE2OTcsLTE1OTk1MTc5MzZdfQ==
 -->
