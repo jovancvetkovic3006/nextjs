@@ -12,9 +12,11 @@ The first section will address Next.JS **Router**
 -   has a **layout.tsx** as a default layout page
 -   each **folder is a route** and needs its page.tsx
 
-## Create files and folders
+## Nested routes
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+-   for each folder structure (eg. blog/folder route) there is a route
+-   **blog/ route** shows its page.tsx
+-   **blog/folder/ route** creates a route for this folder with its page.tsx
 
 ## Switch to another file
 
@@ -147,6 +149,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NDc0MzExMywxMzA0NDE2MTgsLTE0ND
-UxODE2OTcsLTE1OTk1MTc5MzZdfQ==
+eyJoaXN0b3J5IjpbLTExMDc3MTkyNTgsMTMwNDQxNjE4LC0xND
+Q1MTgxNjk3LC0xNTk5NTE3OTM2XX0=
 -->
