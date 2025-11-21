@@ -3,9 +3,14 @@
 Hi! Lets dive in the **Next.JS**.
 
 
-# Files
+# Router
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+The first section will address Next.JS **Router**
+-   it is file-system-based routing system
+-   App folder is a routing root
+-   Need a default [page.ts](http://page.ts)x (home page)
+-   Can have a layout.tsx as a default layout that will hold/render all other router
+-   Each folder is a route and needs its page.tsx
 
 ## Create files and folders
 
@@ -142,6 +147,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDQxNjE4LC0xNDQ1MTgxNjk3LC0xNT
-k5NTE3OTM2XX0=
+eyJoaXN0b3J5IjpbMTU4NTg4MDMwNywxMzA0NDE2MTgsLTE0ND
+UxODE2OTcsLTE1OTk1MTc5MzZdfQ==
 -->
