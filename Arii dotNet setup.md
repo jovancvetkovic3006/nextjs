@@ -1,6 +1,13 @@
 ## Migration's LIST:
 dotnet ef migrations list --context AriiContext --project Arii.Common --startup-project Arii.Common
 
+## Migrate all pending:
+cd Arii.Api
+dotnet ef database update \
+  --context AriiContext \
+  --project ../Arii.Common \
+  --startup-project .
+
 ### ADD:
 dotnet ef migrations add MarkerTypeEntity --context AriiContext --project Arii.Common --startup-project Arii.Common
 
@@ -13,5 +20,6 @@ dotnet ef migrations remove --context AriiContext --project Arii.Common --startu
 ### FE > BE connection
             connectionString = "Host=localhost;Port=5433;Database=arii;Username=arii;Password=ariipassword";
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTgyODcxNCwtMTE4NzEyMTg5Nl19
+eyJoaXN0b3J5IjpbNTI1OTE1NjA0LDE5NTE4Mjg3MTQsLTExOD
+cxMjE4OTZdfQ==
 -->
