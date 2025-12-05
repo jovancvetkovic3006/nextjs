@@ -2,6 +2,7 @@
 dotnet ef migrations list --context AriiContext --project Arii.Common --startup-project Arii.Common
 
 ## Migrate all pending:
+cd Arii.Api
 dotnet ef database update \
   --context AriiContext \
   --project ../Arii.Common \
@@ -19,6 +20,6 @@ dotnet ef migrations remove --context AriiContext --project Arii.Common --startu
 ### FE > BE connection
             connectionString = "Host=localhost;Port=5433;Database=arii;Username=arii;Password=ariipassword";
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE2NDIzMTgsNTI1OTE1NjA0LDE5NT
-E4Mjg3MTQsLTExODcxMjE4OTZdfQ==
+eyJoaXN0b3J5IjpbNTI1OTE1NjA0LDUyNTkxNTYwNCwxOTUxOD
+I4NzE0LC0xMTg3MTIxODk2XX0=
 -->
