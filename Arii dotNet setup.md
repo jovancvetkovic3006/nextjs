@@ -15,7 +15,10 @@ dotnet ef migrations remove --context AriiContext --project Arii.Common --startu
 
 ### FE > BE connection
             connectionString = "Host=localhost;Port=5433;Database=arii;Username=arii;Password=ariipassword";
+
+### Build
+dotnet build     
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzc2ODMxOSw1MjU5MTU2MDQsMTk1MT
-gyODcxNCwtMTE4NzEyMTg5Nl19
+eyJoaXN0b3J5IjpbLTkxMTQ4MDk2MCwyMTMzNzY4MzE5LDUyNT
+kxNTYwNCwxOTUxODI4NzE0LC0xMTg3MTIxODk2XX0=
 -->
