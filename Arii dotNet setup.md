@@ -21,7 +21,10 @@ dotnet ef migrations add MarkerTypeEntity --context AriiContext --project Arii.C
 
 ### Tests
 	dotnet test Arii.Api.UnitTests
+
+### Docker
+	docker-compose up -d postgres  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI5NzAzODAsMjEzMzc2ODMxOSw1Mj
-U5MTU2MDQsMTk1MTgyODcxNCwtMTE4NzEyMTg5Nl19
+eyJoaXN0b3J5IjpbLTI2NDg2MzA1MywyMTMzNzY4MzE5LDUyNT
+kxNTYwNCwxOTUxODI4NzE0LC0xMTg3MTIxODk2XX0=
 -->
