@@ -18,7 +18,10 @@ dotnet ef migrations remove --context AriiContext --project Arii.Common --startu
 
 ### Build
 dotnet build     
+
+### Tests
+dotnet test Arii.Api.UnitTests
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTQ4MDk2MCwyMTMzNzY4MzE5LDUyNT
-kxNTYwNCwxOTUxODI4NzE0LC0xMTg3MTIxODk2XX0=
+eyJoaXN0b3J5IjpbNjg2MzExMDkyLDIxMzM3NjgzMTksNTI1OT
+E1NjA0LDE5NTE4Mjg3MTQsLTExODcxMjE4OTZdfQ==
 -->
